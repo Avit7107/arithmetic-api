@@ -10,10 +10,7 @@
  **/
 // DefaultService.js or wherever code2 is from
 exports.calculate = function(body,operation) {
-  // const token = jwt.sign({ data: 'exampleData' }, process.env.JWT_SECRET_KEY, {
-  //   algorithm: 'HS256',
-  //   expiresIn: '4h', // Token expires in 2 hours
-  // });
+  
   return new Promise(function(resolve, reject) {
     // Extracting num1, num2, and operation from the body
     const { num1, num2 } = body;
